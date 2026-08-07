@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:19.457279Z",
+  "updatedAt": "2026-08-07T18:45:22.25942Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -72,6 +72,31 @@
               "fileName": "tool-shell_command_0.1.0_windows-x64.zip",
               "sizeBytes": 46252330,
               "sha256": "1cc37d99a4d5450aaaaaf3caff027d5b2e97e42192a5b1ae261944ae0028edc4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "sci_calculator",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:26:16Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立数学表达式和科学计算能力。\n- 支持统计、积分、置信区间和误差传播。\n- 支持随工具提供的 Python 运行环境和开发态外部 Python 配置。\n- 建立工具独立版本与 eucli-box 适用范围资料。\n- 将工具本体与用户配置分开保存。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "sci_calculator/v0.1.0",
+              "fileName": "tool-sci_calculator_0.1.0_windows-x64.zip",
+              "sizeBytes": 81399587,
+              "sha256": "f2dad60bb1fcc84b78cd051902b65112911b8d4ccdaf3ddcb6bc4a2edbaf02ab"
             }
           ]
         }
