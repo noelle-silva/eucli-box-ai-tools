@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:24.9341168Z",
+  "updatedAt": "2026-08-07T18:45:27.5933077Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -122,6 +122,31 @@
               "fileName": "tool-file_operator_0.1.0_windows-x64.zip",
               "sizeBytes": 2299680,
               "sha256": "5bfe89db3416c7b938269a36d6ed59557224345d9acbd9344064845414dcf213"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "everything",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:23:24Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立基于 Everything 的本机文件搜索能力。\n- 支持默认全盘搜索和指定目录搜索。\n- 建立工具独立版本与 eucli-box 适用范围资料。\n- 将程序资源归入工具本体，将缓存、索引和运行状态归入长期工具数据区。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "everything/v0.1.0",
+              "fileName": "tool-everything_0.1.0_windows-x64.zip",
+              "sizeBytes": 3244822,
+              "sha256": "31a2c67c68fb30fec527d53a9cde9648b96c03872f7fc1f63a54de6f53e64a32"
             }
           ]
         }
