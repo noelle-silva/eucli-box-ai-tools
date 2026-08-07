@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:27.5933077Z",
+  "updatedAt": "2026-08-07T18:45:30.0962065Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -147,6 +147,31 @@
               "fileName": "tool-everything_0.1.0_windows-x64.zip",
               "sizeBytes": 3244822,
               "sha256": "31a2c67c68fb30fec527d53a9cde9648b96c03872f7fc1f63a54de6f53e64a32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "context7",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:22:39Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立 Context7 资料库查找与文档查询能力。\n- 支持匿名访问、用户密钥配置、超时和输出长度限制。\n- 建立工具独立版本与 eucli-box 适用范围资料。\n- 工具本体与用户配置分开保存，重建本体不会覆盖用户配置。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "context7/v0.1.0",
+              "fileName": "tool-context7_0.1.0_windows-x64.zip",
+              "sizeBytes": 4897619,
+              "sha256": "786f5c57370a27307f69c52847dd6435ff31be2d3b50cae78dfe54b294a01cf0"
             }
           ]
         }
