@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-07T18:45:14.0640543Z",
+  "updatedAt": "2026-08-07T18:45:16.7921328Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -22,6 +22,31 @@
               "fileName": "tool-zhihu_search_0.1.0_windows-x64.zip",
               "sizeBytes": 4891294,
               "sha256": "214aa2944ac6fdecdcff520e70af99f9928e789f3eb231a7b4e4561ecde94207"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "web_search",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishedAt": "2026-08-01T15:29:04Z",
+          "sourceRevision": "95189feeb3fca09ce0e1963c0d0a0cae4f4dd90e",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.0 - 2026-07-26\n\n- 建立统一网络搜索能力，并支持 Tavily 与 AnySearch。\n- 支持用户密钥、搜索范围、超时和输出长度配置。\n- 将不同来源的结果整理为统一文本和附加资料。\n- 建立工具独立版本与 eucli-box 适用范围资料。\n- 将工具本体与用户配置分开保存。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "web_search/v0.1.0",
+              "fileName": "tool-web_search_0.1.0_windows-x64.zip",
+              "sizeBytes": 4900645,
+              "sha256": "b2b1ec0ac0726e905c08de7587f73e1459e11d76d8107e9f50ba6892cf9e3888"
             }
           ]
         }
