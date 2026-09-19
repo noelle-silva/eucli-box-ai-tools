@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T08:02:11.1583425Z",
+  "updatedAt": "2026-09-19T13:49:02.8292986Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -122,6 +122,25 @@
               "fileName": "tool-everything_0.1.0_windows-x64.zip",
               "sizeBytes": 3244822,
               "sha256": "31a2c67c68fb30fec527d53a9cde9648b96c03872f7fc1f63a54de6f53e64a32"
+            }
+          ]
+        },
+        {
+          "version": "0.4.0",
+          "publishedAt": "2026-09-19T13:49:02.3618241Z",
+          "sourceRevision": "2d0d48fc0bcce86c58f55b041738346fd056c4d6",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.4.0 - 2026-09-10\n\n- 新增 `action` 输入参数，取值 `search`、`authorize`、`index`，缺省为 `search`；其他取值明确失败。\n- 新增 `authorize` 动作：幂等的一次性授权，通过系统提权安装或修复权限管家；已授权时直接返回；不接受搜索专属参数。\n- 新增 `index` 动作：复用既有全盘准备路径准备并持久化索引，不执行搜索；不接受搜索专属参数。\n- 全盘动作（未指定范围的 `search` 与 `index`）在权限管家不健康时快速失败，并引导先调用 `authorize`、由用户在电脑前确认系统弹窗；指定范围搜索不需要授权。\n- 全盘动作绑定配置中的默认实例名；未指定范围的 `search` 显式传入其他实例名时明确失败。\n- 权限管家为系统服务（服务名 `Everything (\u003c默认实例名\u003e)`），引擎副本安装于系统保护区的 `eucli-box-everything` 子目录；健康判定覆盖服务存在、登记路径、引擎哈希与运行状态。\n- 非 Windows 平台：`authorize` 与 `index` 明确失败，`search` 保持既有行为。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "everything/v0.4.0",
+              "fileName": "tool-everything_0.4.0_windows-x64.zip",
+              "sizeBytes": 3714471,
+              "sha256": "072f9e9c6159aa68572cc9d26870b85205ce301257abad1323e03deeec818c41"
             }
           ]
         }
