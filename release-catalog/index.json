@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T13:52:20.6723134Z",
+  "updatedAt": "2026-09-19T13:53:25.475635Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -22,6 +22,25 @@
               "fileName": "tool-zhihu_search_0.1.0_windows-x64.zip",
               "sizeBytes": 4891294,
               "sha256": "214aa2944ac6fdecdcff520e70af99f9928e789f3eb231a7b4e4561ecde94207"
+            }
+          ]
+        },
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-09-19T13:53:25.0054441Z",
+          "sourceRevision": "2d0d48fc0bcce86c58f55b041738346fd056c4d6",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-09-09\n\n- 移除用户配置中的默认时限通道：执行时限只接受调用参数 `timeoutMs`，未指定时限时不设截止时间。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "zhihu_search/v0.1.1",
+              "fileName": "tool-zhihu_search_0.1.1_windows-x64.zip",
+              "sizeBytes": 4905214,
+              "sha256": "e7f72948130711a4334369d5618f0eefc8227e9daa96007ad9abf4645e573faa"
             }
           ]
         }
