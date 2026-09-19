@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T13:51:18.2234023Z",
+  "updatedAt": "2026-09-19T13:52:20.6723134Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -47,6 +47,25 @@
               "fileName": "tool-web_search_0.1.0_windows-x64.zip",
               "sizeBytes": 4900645,
               "sha256": "b2b1ec0ac0726e905c08de7587f73e1459e11d76d8107e9f50ba6892cf9e3888"
+            }
+          ]
+        },
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-09-19T13:52:20.2177216Z",
+          "sourceRevision": "2d0d48fc0bcce86c58f55b041738346fd056c4d6",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-09-09\n\n- 移除用户配置中的默认时限通道：执行时限只接受调用参数 `timeoutMs`，未指定时限时不设截止时间。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "web_search/v0.1.1",
+              "fileName": "tool-web_search_0.1.1_windows-x64.zip",
+              "sizeBytes": 4912682,
+              "sha256": "b9638df5e1bedf36d71b3a9bf2e3e0eab10a0a9a44df2c3ff558d595b5506223"
             }
           ]
         }
