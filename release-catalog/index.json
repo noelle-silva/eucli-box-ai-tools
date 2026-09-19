@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T13:49:02.8292986Z",
+  "updatedAt": "2026-09-19T13:50:23.6928915Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -166,6 +166,31 @@
               "fileName": "tool-context7_0.1.0_windows-x64.zip",
               "sizeBytes": 4897619,
               "sha256": "786f5c57370a27307f69c52847dd6435ff31be2d3b50cae78dfe54b294a01cf0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "file_editor",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-09-19T13:50:23.2439348Z",
+          "sourceRevision": "2d0d48fc0bcce86c58f55b041738346fd056c4d6",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-09-11\n\n- 补丁引擎重写：每个 `@@` 段独立定位并按顺序应用，段与段之间可以有间隔；空行按空上下文行对待；语法不合规明确报错（结束标记后内容、`@@` 后内容、新增/删除段带移动指令、删除段带正文、非法行前缀）；同一文件在一份补丁里仍只允许出现一次。\n- 换行风格适配：编辑与补丁按文件自身的 LF/CRLF 风格匹配与写回，不再出现\"读到的内容能改不动\"；新建文件使用 LF。\n- 写入安全：改为同目录临时文件 + 改名就位，失败不留半截文件并保留原文件权限；补丁回滚失败与原始错误一起上报。\n- expectedHash 收口为单一校验：传入时目标必须存在；失败统一回报当前真实 hash；写入、编辑与创建路径共用。\n- 结果末尾新增 `[file_editor]` 信息条，新 hash 等信息对模型可见，可直接串联到后续 expectedHash。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "file_editor/v0.1.1",
+              "fileName": "tool-file_editor_0.1.1_windows-x64.zip",
+              "sizeBytes": 2465944,
+              "sha256": "70723b451ab77d2c4b4b177d80c9c8aff9ccd5d080f3f90a6ef239b283b0beaa"
             }
           ]
         }
