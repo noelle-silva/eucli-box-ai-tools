@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T14:20:06.8570281Z",
+  "updatedAt": "2026-09-19T17:18:31.5501265Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -129,6 +129,25 @@
               "fileName": "tool-shell_command_0.1.2_windows-x64.zip",
               "sizeBytes": 220899719,
               "sha256": "f1795a3101a48efe5acb7ff84ec31a9669ef42366d00f187ff9f9ef61e6882f4"
+            }
+          ]
+        },
+        {
+          "version": "0.1.3",
+          "publishedAt": "2026-09-19T17:18:31.0852217Z",
+          "sourceRevision": "2a2bd86feda67b3333f6d3fb99812b4438cebebf",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.3 - 2026-09-20\n\n- 命令分析器随包：工具包固定携带 `analyzer/command-analyzer.exe`，打包时强制完整性检查，缺失即打包失败；修复 0.1.2 成品缺少分析器组件、调用即失败（协议误报）的问题。\n- 补记 0.1.2 已接入能力：工具在执行前对每条命令运行统一命令分析器（安全分类、只读校验、影响路径），分析结果随工具结果 metadata 的 `commandAnalysis` 返回。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "shell_command/v0.1.3",
+              "fileName": "tool-shell_command_0.1.3_windows-x64.zip",
+              "sizeBytes": 222245505,
+              "sha256": "fdeb1acd763fef3839eb4b1564ead48c422ce5bdb65c502a15b81523a73b648e"
             }
           ]
         }
