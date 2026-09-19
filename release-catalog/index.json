@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T13:50:23.6928915Z",
+  "updatedAt": "2026-09-19T13:51:18.2234023Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -191,6 +191,31 @@
               "fileName": "tool-file_editor_0.1.1_windows-x64.zip",
               "sizeBytes": 2465944,
               "sha256": "70723b451ab77d2c4b4b177d80c9c8aff9ccd5d080f3f90a6ef239b283b0beaa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "file_reader",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-09-19T13:51:17.7694777Z",
+          "sourceRevision": "2d0d48fc0bcce86c58f55b041738346fd056c4d6",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-09-11\n\n- 通配查找统一为一个编译型匹配器：`*`、`?` 不跨目录层，`**` 跨层且 `**/` 匹配零层，不再随平台漂移；搜索过滤（include）按文件名跨层匹配。结果改为按路径字典序返回。\n- 读取结果末尾新增 `[file_reader]` 信息条：hash、总行数、续读位置、截断与结果数等信息对模型可见；输出截断时信息条不丢。\n- 文本解码统一：UTF-8 BOM / UTF-16 BOM 正确解码；非 UTF-8 文本替换为 `�` 并给出警告与结构化标记，不再静默乱码。\n- 补丁级修正：glob 遍历只编译一次模式；grep 到达结果上限立即停止；被跳过文件数量可见；read 目录动作名修正；offset/limit 非正值明确报错；截断改为不切断多字节字符。\n- 文档澄清（验收反馈）：输出上限按 UTF-8 字节计且含信息条预算；`returnedLines` 为窗口行数，行被截短时用 `lineTruncated=true` 标记，行数不变。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "file_reader/v0.1.1",
+              "fileName": "tool-file_reader_0.1.1_windows-x64.zip",
+              "sizeBytes": 2682347,
+              "sha256": "c30090a199fbc5f2fb1eef31132a0761422ffd9e0bc26cd9eb76c2516dad24dd"
             }
           ]
         }
