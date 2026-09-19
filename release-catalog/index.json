@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T13:53:25.475635Z",
+  "updatedAt": "2026-09-19T13:57:49.9213668Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -110,6 +110,25 @@
               "fileName": "tool-shell_command_0.1.0_windows-x64.zip",
               "sizeBytes": 46252330,
               "sha256": "1cc37d99a4d5450aaaaaf3caff027d5b2e97e42192a5b1ae261944ae0028edc4"
+            }
+          ]
+        },
+        {
+          "version": "0.1.2",
+          "publishedAt": "2026-09-19T13:57:49.3435969Z",
+          "sourceRevision": "2d0d48fc0bcce86c58f55b041738346fd056c4d6",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.2 - 2026-09-09\n\n- 移除用户配置中的默认时限通道：命令时限只接受调用参数 `timeoutMs`，未指定时限时不设截止时间。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "shell_command/v0.1.2",
+              "fileName": "tool-shell_command_0.1.2_windows-x64.zip",
+              "sizeBytes": 220899719,
+              "sha256": "f1795a3101a48efe5acb7ff84ec31a9669ef42366d00f187ff9f9ef61e6882f4"
             }
           ]
         }
