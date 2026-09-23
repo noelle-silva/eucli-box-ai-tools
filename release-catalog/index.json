@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T01:35:42.4056516Z",
+  "updatedAt": "2026-09-23T13:22:53.5552202Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -148,6 +148,25 @@
               "fileName": "tool-shell_command_0.1.3_windows-x64.zip",
               "sizeBytes": 222245505,
               "sha256": "fdeb1acd763fef3839eb4b1564ead48c422ce5bdb65c502a15b81523a73b648e"
+            }
+          ]
+        },
+        {
+          "version": "0.1.6",
+          "publishedAt": "2026-09-23T13:22:53.1137241Z",
+          "sourceRevision": "83a65094311533687f5eea75759969030e2dab29",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.6 - 2026-09-23\n\n- 引入工具热身",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "shell_command/v0.1.6",
+              "fileName": "tool-shell_command_0.1.6_windows-x64.zip",
+              "sizeBytes": 222251113,
+              "sha256": "7b63a7e4585913dd23efa08c468c9b235a9796e21acd99f96f00022e287ad3e9"
             }
           ]
         }
