@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:24:18.5035718Z",
+  "updatedAt": "2026-09-30T20:25:19.168107Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -85,6 +85,25 @@
               "fileName": "tool-web_search_0.1.1_windows-x64.zip",
               "sizeBytes": 4912682,
               "sha256": "b9638df5e1bedf36d71b3a9bf2e3e0eab10a0a9a44df2c3ff558d595b5506223"
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "publishedAt": "2026-09-30T20:25:18.4398028Z",
+          "sourceRevision": "04e21f9ecab98cec29c846f72af563940b205a50",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.0 - 2026-10-01\n\n- 接入数据迁移模式：宿主携带迁移请求时以独立进程执行自身数据迁移，如实回报结果与数据版本事实，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "web_search/v0.2.0",
+              "fileName": "tool-web_search_0.2.0_windows-x64.zip",
+              "sizeBytes": 5087486,
+              "sha256": "5580cb10b2554e68a0c08f678e5037d26c9fdeebcf870485e68cfd7120910afa"
             }
           ]
         }
