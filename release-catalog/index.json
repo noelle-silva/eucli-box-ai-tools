@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:31:16.9200931Z",
+  "updatedAt": "2026-09-30T20:32:12.7985812Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -488,6 +488,31 @@
               "fileName": "tool-hypercortex_reader_0.1.4_windows-x64.zip",
               "sizeBytes": 5172051,
               "sha256": "5e8cbe8d750c5d35d96669cf2ce23ffa312a6a7b136eedf541fbefee3fb40343"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "hypercortex_writer",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "publishedAt": "2026-09-30T20:32:12.0391996Z",
+          "sourceRevision": "c175438169a216f34178c100c75c846a1fc0bae7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.3 - 2026-09-30\n\n- `list_face_kinds` 返回每个面类型的设置声明（键名、类型、默认值、可选值与范围）：调用方无需猜测合法设置项，`save_face_settings` 的正向路径由此闭环。\n- `save_face_settings` 空操作短路：补丁不改变任何设置时不写盘、不推进版本（空补丁与重复提交成为真无副作用）；回显照常给出，可当作「探读当前面设置」的正式用法。\n- 框架惯例的「调用原因」`description` 改为接受并记录到结果元数据（与 `shell_command` 等同款），不再被未知参数校验拒绝。\n- 解析失败（仓库尚未解析）时信息条不再输出空 `repo=` 字段。\n- 文档补充：面设置读取方式（空补丁探读）与设置声明来源。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "hypercortex_writer/v0.1.3",
+              "fileName": "tool-hypercortex_writer_0.1.3_windows-x64.zip",
+              "sizeBytes": 5160756,
+              "sha256": "6d22bdd1dbe65371ef5e81b16c4da5b82fc693ac2db5966812b2dff7807aaaeb"
             }
           ]
         }
