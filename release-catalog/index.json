@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:18:41.5366694Z",
+  "updatedAt": "2026-09-30T20:19:30.4353982Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -318,6 +318,25 @@
               "fileName": "tool-file_editor_0.1.1_windows-x64.zip",
               "sizeBytes": 2465944,
               "sha256": "70723b451ab77d2c4b4b177d80c9c8aff9ccd5d080f3f90a6ef239b283b0beaa"
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "publishedAt": "2026-09-30T20:19:29.8485838Z",
+          "sourceRevision": "04e21f9ecab98cec29c846f72af563940b205a50",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.0 - 2026-10-01\n\n- 接入数据迁移模式：宿主携带迁移请求时以独立进程执行自身数据迁移，如实回报结果与数据版本事实，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "file_editor/v0.2.0",
+              "fileName": "tool-file_editor_0.2.0_windows-x64.zip",
+              "sizeBytes": 2650226,
+              "sha256": "387fa621d110291713b29204181e3b037ecf138c7a9ec8befb9836f7cb4ebd5c"
             }
           ]
         }
