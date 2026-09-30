@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:32:12.7985812Z",
+  "updatedAt": "2026-09-30T20:33:03.2377813Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -513,6 +513,31 @@
               "fileName": "tool-hypercortex_writer_0.1.3_windows-x64.zip",
               "sizeBytes": 5160756,
               "sha256": "6d22bdd1dbe65371ef5e81b16c4da5b82fc693ac2db5966812b2dff7807aaaeb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "session_image",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-09-30T20:33:02.5869255Z",
+          "sourceRevision": "c175438169a216f34178c100c75c846a1fc0bae7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-09-30\n\n- 图片 ID 分级校验：格式不合法（含大小写不符、截断）在本地直接拒绝并给出正确形态与大小写提示，与「ID 不存在」的宿主回执区分开，不再返回同一句话误导排查方向。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "session_image/v0.1.1",
+              "fileName": "tool-session_image_0.1.1_windows-x64.zip",
+              "sizeBytes": 2767950,
+              "sha256": "c2de99c005482f4e683e038ac4dcbc4a542aa5559617eea1021ba1891fb48d2c"
             }
           ]
         }
