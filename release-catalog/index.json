@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:19:30.4353982Z",
+  "updatedAt": "2026-09-30T20:20:17.6808852Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -362,6 +362,25 @@
               "fileName": "tool-file_reader_0.1.1_windows-x64.zip",
               "sizeBytes": 2682347,
               "sha256": "c30090a199fbc5f2fb1eef31132a0761422ffd9e0bc26cd9eb76c2516dad24dd"
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "publishedAt": "2026-09-30T20:20:16.5887033Z",
+          "sourceRevision": "04e21f9ecab98cec29c846f72af563940b205a50",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.0 - 2026-10-01\n\n- 接入数据迁移模式：宿主携带迁移请求时以独立进程执行自身数据迁移，如实回报结果与数据版本事实，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "file_reader/v0.2.0",
+              "fileName": "tool-file_reader_0.2.0_windows-x64.zip",
+              "sizeBytes": 2841042,
+              "sha256": "48bcaa4d947ef99b5c80d9b752ce3223da294b440dc35ac5598e7c30f01761dd"
             }
           ]
         }
