@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:20:17.6808852Z",
+  "updatedAt": "2026-09-30T20:24:18.5035718Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -167,6 +167,25 @@
               "fileName": "tool-shell_command_0.1.6_windows-x64.zip",
               "sizeBytes": 222251113,
               "sha256": "7b63a7e4585913dd23efa08c468c9b235a9796e21acd99f96f00022e287ad3e9"
+            }
+          ]
+        },
+        {
+          "version": "0.2.0",
+          "publishedAt": "2026-09-30T20:24:17.2209209Z",
+          "sourceRevision": "04e21f9ecab98cec29c846f72af563940b205a50",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.0 - 2026-10-01\n\n- 接入数据迁移模式：宿主携带迁移请求时以独立进程执行自身数据迁移，如实回报结果与数据版本事实，目标数据版本升至 1.2.0",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "shell_command/v0.2.0",
+              "fileName": "tool-shell_command_0.2.0_windows-x64.zip",
+              "sizeBytes": 222416300,
+              "sha256": "7d6320ac8ba236d031dba538d903f91dadac74bb5433a5ff77065090150551b3"
             }
           ]
         }
