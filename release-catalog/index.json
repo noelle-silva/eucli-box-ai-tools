@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T20:30:11.6741634Z",
+  "updatedAt": "2026-09-30T20:31:16.9200931Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -463,6 +463,31 @@
               "fileName": "tool-ai-image_0.1.2_windows-x64.zip",
               "sizeBytes": 5599363,
               "sha256": "409f003490652c58bf84e45e71e1633f3a2445c8df8160eb967228509c8a4183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "hypercortex_reader",
+      "versions": [
+        {
+          "version": "0.1.4",
+          "publishedAt": "2026-09-30T20:31:16.1587667Z",
+          "sourceRevision": "c175438169a216f34178c100c75c846a1fc0bae7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.4 - 2026-09-30\n\n- 文档：`read_version` / `list_versions` 的「版本不存在」（`VERSION_NOT_FOUND`）与「笔记不存在」（`NOTE_NOT_FOUND`）在说明中明确分开（后端同步修复：笔记存在而版本快照缺失时不再误报笔记不存在）。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "hypercortex_reader/v0.1.4",
+              "fileName": "tool-hypercortex_reader_0.1.4_windows-x64.zip",
+              "sizeBytes": 5172051,
+              "sha256": "5e8cbe8d750c5d35d96669cf2ce23ffa312a6a7b136eedf541fbefee3fb40343"
             }
           ]
         }
