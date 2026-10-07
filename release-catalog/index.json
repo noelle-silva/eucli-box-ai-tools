@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:35:48.9511906Z",
+  "updatedAt": "2026-10-07T03:39:27.2398618Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -224,6 +224,25 @@
               "fileName": "tool-shell_command_0.2.0_windows-x64.zip",
               "sizeBytes": 222416300,
               "sha256": "7d6320ac8ba236d031dba538d903f91dadac74bb5433a5ff77065090150551b3"
+            }
+          ]
+        },
+        {
+          "version": "0.2.1",
+          "publishedAt": "2026-10-07T03:39:26.3187298Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.1 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "shell_command/v0.2.1",
+              "fileName": "tool-shell_command_0.2.1_windows-x64.zip",
+              "sizeBytes": 222412043,
+              "sha256": "a015a2e4d4d6a2dd80e7fa36fda9ed4427c3e8f5023324ba5626ea2ee12d5e70"
             }
           ]
         }
