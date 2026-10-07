@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:39:27.2398618Z",
+  "updatedAt": "2026-10-07T03:41:06.8167655Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -123,6 +123,25 @@
               "fileName": "tool-web_search_0.2.0_windows-x64.zip",
               "sizeBytes": 5087486,
               "sha256": "5580cb10b2554e68a0c08f678e5037d26c9fdeebcf870485e68cfd7120910afa"
+            }
+          ]
+        },
+        {
+          "version": "0.2.1",
+          "publishedAt": "2026-10-07T03:41:05.9835171Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.1 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "web_search/v0.2.1",
+              "fileName": "tool-web_search_0.2.1_windows-x64.zip",
+              "sizeBytes": 5085768,
+              "sha256": "e3a3986b3b1d2ea5048a5eddb6ab585ac7595e4846e445a9717ea4d23e8c6a0d"
             }
           ]
         }
