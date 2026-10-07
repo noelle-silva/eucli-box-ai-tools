@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:41:06.8167655Z",
+  "updatedAt": "2026-10-07T03:42:08.0158901Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -60,6 +60,25 @@
               "fileName": "tool-zhihu_search_0.2.0_windows-x64.zip",
               "sizeBytes": 5079862,
               "sha256": "d0b50d652d54696f17b247852c89079d5fc6f297ee796d1672bd0dd49975a9d3"
+            }
+          ]
+        },
+        {
+          "version": "0.2.1",
+          "publishedAt": "2026-10-07T03:42:07.1253715Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.2.1 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "zhihu_search/v0.2.1",
+              "fileName": "tool-zhihu_search_0.2.1_windows-x64.zip",
+              "sizeBytes": 5077504,
+              "sha256": "a2f87c7ef8a46f201ef7ecf8c5c86ec3e5104ad758c3cfbcccac9eb97214260e"
             }
           ]
         }
