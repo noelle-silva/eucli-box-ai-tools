@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:32:54.4440326Z",
+  "updatedAt": "2026-10-07T03:34:01.3870866Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -627,6 +627,25 @@
               "fileName": "tool-hypercortex_writer_0.1.3_windows-x64.zip",
               "sizeBytes": 5160756,
               "sha256": "6d22bdd1dbe65371ef5e81b16c4da5b82fc693ac2db5966812b2dff7807aaaeb"
+            }
+          ]
+        },
+        {
+          "version": "0.1.4",
+          "publishedAt": "2026-10-07T03:34:00.4533664Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.4 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "hypercortex_writer/v0.1.4",
+              "fileName": "tool-hypercortex_writer_0.1.4_windows-x64.zip",
+              "sizeBytes": 5159223,
+              "sha256": "61b97bad9a23e05da9153c3f88f2a8f2c1969f47481385124a0ff4bd02701348"
             }
           ]
         }
