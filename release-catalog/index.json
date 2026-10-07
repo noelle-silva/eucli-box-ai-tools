@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:34:01.3870866Z",
+  "updatedAt": "2026-10-07T03:34:58.0239246Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -671,6 +671,31 @@
               "fileName": "tool-session_image_0.1.1_windows-x64.zip",
               "sizeBytes": 2767950,
               "sha256": "c2de99c005482f4e683e038ac4dcbc4a542aa5559617eea1021ba1891fb48d2c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "image_reader",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishedAt": "2026-10-07T03:34:57.3457864Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.1 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "image_reader/v0.1.1",
+              "fileName": "tool-image_reader_0.1.1_windows-x64.zip",
+              "sizeBytes": 3003469,
+              "sha256": "c4b13afefa0e968c47fc9923942a1384fd1a1f50270c08e084117bcffeeac4ac"
             }
           ]
         }
