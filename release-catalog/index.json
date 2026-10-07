@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:27:24.6078046Z",
+  "updatedAt": "2026-10-07T03:28:44.1121437Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -350,6 +350,25 @@
               "fileName": "tool-context7_0.3.0_windows-x64.zip",
               "sizeBytes": 5085133,
               "sha256": "983d3625df673aca8b8e594d909a1f5f6b2715a909a07e941407ba3dadd825ca"
+            }
+          ]
+        },
+        {
+          "version": "0.3.1",
+          "publishedAt": "2026-10-07T03:28:43.3048902Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.1 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "context7/v0.3.1",
+              "fileName": "tool-context7_0.3.1_windows-x64.zip",
+              "sizeBytes": 5083415,
+              "sha256": "a3e6ade32f9a260892e403feb5e6ed013a5d9d2dca3c69345c033da9fe4d1368"
             }
           ]
         }
