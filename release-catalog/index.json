@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:31:50.1199409Z",
+  "updatedAt": "2026-10-07T03:32:54.4440326Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -583,6 +583,25 @@
               "fileName": "tool-hypercortex_reader_0.1.4_windows-x64.zip",
               "sizeBytes": 5172051,
               "sha256": "5e8cbe8d750c5d35d96669cf2ce23ffa312a6a7b136eedf541fbefee3fb40343"
+            }
+          ]
+        },
+        {
+          "version": "0.1.5",
+          "publishedAt": "2026-10-07T03:32:53.6508659Z",
+          "sourceRevision": "844cc43fad4f2fbfe10a3a3ad37d5b44cfa0e624",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.1.5 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "hypercortex_reader/v0.1.5",
+              "fileName": "tool-hypercortex_reader_0.1.5_windows-x64.zip",
+              "sizeBytes": 5170584,
+              "sha256": "43c73c2038c79388903ebcd05b02df61ffa2fb3edc099edc848e1492703ea854"
             }
           ]
         }
