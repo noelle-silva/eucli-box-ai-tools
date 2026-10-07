@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:42:08.0158901Z",
+  "updatedAt": "2026-10-07T06:59:27.1945431Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -772,6 +772,31 @@
               "fileName": "tool-image_reader_0.1.1_windows-x64.zip",
               "sizeBytes": 3003469,
               "sha256": "c4b13afefa0e968c47fc9923942a1384fd1a1f50270c08e084117bcffeeac4ac"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "web_fetch",
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishedAt": "2026-10-07T06:59:26.3429371Z",
+          "sourceRevision": "3f5806c49db7c699b712022be9b923bcf9188471",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.3.0"
+          },
+          "releaseNotes": "## 0.2.1 - 2026-10-07\n\n- AI 工具自治改造：脱离宿主依赖、契约包自带并按需精简，工具完全自治",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "web_fetch/v0.2.1",
+              "fileName": "tool-web_fetch_0.2.1_windows-x64.zip",
+              "sizeBytes": 7888070,
+              "sha256": "80c8571b42c7e682c33562a20eebd9ba117c354d68e2ea1fb01ba4e6fbfd6cfb"
             }
           ]
         }
