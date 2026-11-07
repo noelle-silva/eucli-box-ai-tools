@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T06:59:27.1945431Z",
+  "updatedAt": "2026-11-07T18:39:04.2357318Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -797,6 +797,31 @@
               "fileName": "tool-web_fetch_0.2.1_windows-x64.zip",
               "sizeBytes": 7888070,
               "sha256": "80c8571b42c7e682c33562a20eebd9ba117c354d68e2ea1fb01ba4e6fbfd6cfb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "tool",
+      "id": "subagent",
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishedAt": "2026-11-07T18:39:03.5785748Z",
+          "sourceRevision": "83ca370dc5cf704356d9d8e3cd2bfe56942b9ba7",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.1 - 2026-11-07\n\n- 修复：点击同意后误报「审批单已失效」。宿主侧围栏确认应用后会重新裁决并换号，结论改为落在用户提交的那个编号上。\n- 裁决被受理但应用失败时，如实带回失败原因，不再与「失效」混为一谈。",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "subagent/v0.3.1",
+              "fileName": "tool-subagent_0.3.1_windows-x64.zip",
+              "sizeBytes": 2582581,
+              "sha256": "a1220e4bdc8f0090cfba7afa7266e55e069823ec2bfcebcdc32861a27cb3521e"
             }
           ]
         }
