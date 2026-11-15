@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:39:04.2357318Z",
+  "updatedAt": "2026-11-15T16:00:16.4863436Z",
   "artifacts": [
     {
       "kind": "tool",
@@ -822,6 +822,25 @@
               "fileName": "tool-subagent_0.3.1_windows-x64.zip",
               "sizeBytes": 2582581,
               "sha256": "a1220e4bdc8f0090cfba7afa7266e55e069823ec2bfcebcdc32861a27cb3521e"
+            }
+          ]
+        },
+        {
+          "version": "0.3.3",
+          "publishedAt": "2026-11-15T16:00:15.6530659Z",
+          "sourceRevision": "350ee28d349aefa4bf12e8f7cc6edcc7cd282147",
+          "compatibility": {
+            "minimumVersion": "0.1.0",
+            "maximumVersionExclusive": "0.2.0"
+          },
+          "releaseNotes": "## 0.3.3 - 2026-11-15\n\n- 开头返回ID",
+          "packages": [
+            {
+              "platform": "windows-x64",
+              "releaseTag": "subagent/v0.3.3",
+              "fileName": "tool-subagent_0.3.3_windows-x64.zip",
+              "sizeBytes": 2587347,
+              "sha256": "c73e130cdabd51d7d7324dec145373f99463d332371325f174a2643f792464e3"
             }
           ]
         }
